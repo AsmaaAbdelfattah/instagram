@@ -10,6 +10,9 @@ class MobileUI extends StatefulWidget {
 class _MobileUIState extends State<MobileUI> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(
+        title:  Text("mobile screen")),
+    );
   }
 }

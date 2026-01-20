@@ -10,6 +10,9 @@ class WebUI extends StatefulWidget {
 class _WebUIState extends State<WebUI> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(
+        title:  Text("web screen")),
+    );
   }
 }
